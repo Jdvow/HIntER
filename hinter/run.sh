@@ -1,0 +1,21 @@
+python3 main.py \
+ -d ICEWS14 \
+ --train-history-len 3 \
+ --test-history-len 3 \
+ --dilate-len 1 \
+ --lr 0.001 \
+ --n-layers 2 \
+ --eval-every 2 \
+ --n-hidden 200 \
+ --self-loop \
+ --layer-norm \
+ --weight 0.5 \
+ --angle 10 \
+ --discount 1 \
+ --gpu 0 \
+ --valid-epoch 4 \
+ --n-epoch 10 \
+ --reg-param 0.01 \
+ --alpha 0.8 \
+ --rotate-weight 0.3 \
+ --sim-len 5
